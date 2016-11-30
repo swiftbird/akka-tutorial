@@ -41,6 +41,7 @@ This example demonstrates a technique to control the order of future completion 
 Use Akka Actors instead of Callable objects to demonstrate asynchronous processing using the Actor pattern.  Akka actors respond to messages and are also Monads.  This step also details the use of messages and the messaging system.
 
 In Akka there are two ways of triggering an asynchronous task:
+
 **actor.tell(...)**
 By using tell(...) you are originating a non-blocking task without any required response or callback.  This is a "throw it over the wall" type of request.
 
